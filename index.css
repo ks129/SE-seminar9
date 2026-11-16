@@ -2,9 +2,14 @@ body {
     margin: 3rem;
 }
 
+h1 {
+    padding-left: 10px;
+}
+
 .row {
     display: grid;
     grid-template-columns: 5fr 3fr;
+    padding: 1rem;
 }
 
 .icons {
@@ -43,4 +48,13 @@ body {
 .nav a:hover {
     color: white;
     background-color: black;
+}
+
+.address {
+    display: flex;
+    justify-content: center;
+}
+
+.address h2, .address p {
+    text-align: center;
 }
