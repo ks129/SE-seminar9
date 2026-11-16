@@ -19,23 +19,6 @@ h1 {
     padding: 1rem;
 }
 
-.icons {
-    display: flex;
-    justify-content: center;
-}
-
-.icon {
-    height: 60px;
-    width: 60px;
-    padding-left: 10px;
-    padding-right: 10px;
-    fill: black;
-}
-
-.icon:hover {
-    fill: #36454F;
-}
-
 .nav {
     display: flex;
     justify-content: start;
@@ -57,6 +40,27 @@ h1 {
     background-color: black;
 }
 
+.icons {
+    display: flex;
+    justify-content: center;
+}
+
+.icon {
+    height: 60px;
+    width: 60px;
+    padding-left: 10px;
+    padding-right: 10px;
+    fill: black;
+}
+
+.icon:hover {
+    fill: #36454F;
+}
+
+.gallery {
+    max-width: 50rem;
+}
+
 .address {
     display: flex;
     justify-content: center;
@@ -64,8 +68,4 @@ h1 {
 
 .address h2, .address p {
     text-align: center;
-}
-
-.gallery {
-    max-width: 50rem;
 }
