@@ -1,5 +1,7 @@
 body {
     margin: 3rem;
+    font-family: "Great Vibes", cursive;
+    font-style: normal;
 }
 
 h1 {
@@ -37,7 +39,7 @@ h1 {
 }
 
 .nav a {
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     font-size: x-large;
     text-decoration: none;
     color: black;
