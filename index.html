@@ -3,6 +3,10 @@
 <head>
     <title>Marie ilutuba</title>
     <link rel="stylesheet" href="index.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@14.0.1/swiper-bundle.min.css"
+    />
 </head>
 <body>
     <h1>Marie ilutuba</h1>
@@ -26,8 +30,22 @@
     </div>
 
     <div class="row">
-        <div class="col">
-            <p>Siia tuleb galerii.</p>
+        <div class="gallery">
+            <div class="swiper gallery-swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="https://picsum.photos/800/400?p=1" alt="Pilt 1">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://picsum.photos/800/400?p=2" alt="Pilt 2">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://picsum.photos/800/400?p=3" alt="Pilt 3">
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
         </div>
         <div class="address">
             <div>
@@ -38,5 +56,20 @@
             </div>
         </div>
     </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@14.0.1/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper('.gallery-swiper', {
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+        loop: true,
+        autoplay: {
+          delay: 3000,
+          disableOnInteraction: false,
+        }
+      });
+    </script>
 </body>
 </html>

@@ -58,3 +58,7 @@ h1 {
 .address h2, .address p {
     text-align: center;
 }
+
+.gallery {
+    max-width: 50rem;
+}
