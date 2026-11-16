@@ -1,7 +1,12 @@
+/* Taustapilt: Photo https://unsplash.com/@kiwihug on https://unsplash.com/photos/plain-white-woven-textile-texture-MS9Tnh3if1o */
+
 body {
     margin: 3rem;
     font-family: "Great Vibes", cursive;
     font-style: normal;
+    background-image: url("background.jpg");
+    background-color: rgba(255, 255, 255, 0.6);
+    background-blend-mode: lighten;
 }
 
 h1 {
